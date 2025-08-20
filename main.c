@@ -52,7 +52,7 @@ int main() {
     return 0;
 }
 
-// Function 1: Add Movie
+// Tahmid's part
 void addMovie(struct Movie movies[], int *count) {
     if (*count >= MAX_MOVIES) {
         printf("Database is full!\n");
@@ -78,7 +78,7 @@ void addMovie(struct Movie movies[], int *count) {
     printf("Movie added successfully!\n");
 }
 
-// Function 2: Display Movies
+// Mahadi's part
 void displayMovies(struct Movie movies[], int count) {
     if (count == 0) {
         printf("No movies to display!\n");
@@ -93,7 +93,7 @@ void displayMovies(struct Movie movies[], int count) {
     }
 }
 
-// Function 3: Search Movie
+// Zulfiqar's part
 void searchMovie(struct Movie movies[], int count) {
     if (count == 0) {
         printf("No movies available!\n");
@@ -120,7 +120,7 @@ void searchMovie(struct Movie movies[], int count) {
     }
 }
 
-// Function 4: Update Movie
+// Saeeda's part
 void updateMovie(struct Movie movies[], int count) {
     if (count == 0) {
         printf("No movies available!\n");
@@ -159,7 +159,7 @@ void updateMovie(struct Movie movies[], int count) {
     printf("Movie not found!\n");
 }
 
-// Function 5a: Save to File
+// Tasfia's part (1)
 void saveToFile(struct Movie movies[], int count) {
     FILE *fp = fopen("movies.txt", "w");
     if (fp == NULL) {
@@ -177,7 +177,7 @@ void saveToFile(struct Movie movies[], int count) {
     printf("Movies saved to file!\n");
 }
 
-// Function 5b: Load from File
+// Tasfia's part (2)
 void loadFromFile(struct Movie movies[], int *count) {
     FILE *fp = fopen("movies.txt", "r");
     if (fp == NULL) {
