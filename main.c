@@ -78,7 +78,7 @@ void addMovie(struct Movie movies[], int *count) {
     printf("Movie added successfully!\n");
 }
 
-// Mahadi's part
+// Saeeda's part
 void displayMovies(struct Movie movies[], int count) {
     if (count == 0) {
         printf("No movies to display!\n");
@@ -93,7 +93,7 @@ void displayMovies(struct Movie movies[], int count) {
     }
 }
 
-// Zulfiqar's part
+// Mahadi's part
 void searchMovie(struct Movie movies[], int count) {
     if (count == 0) {
         printf("No movies available!\n");
@@ -120,7 +120,7 @@ void searchMovie(struct Movie movies[], int count) {
     }
 }
 
-// Saeeda's part
+// Zulfiqar's part
 void updateMovie(struct Movie movies[], int count) {
     if (count == 0) {
         printf("No movies available!\n");
